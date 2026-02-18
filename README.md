@@ -6,6 +6,9 @@ This repository contains the backend infrastructure for the **CookCrackCapture**
 
 The system is built on a **Centralized Game Controller** architecture. Instead of running 30+ separate Docker containers (which would consume massive RAM), a single Node.js process (`server.js`) manages all game instances.
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/48a0e0bd-142f-450a-b1d2-fdd8e4a9dc93" />
+
+
 ### Key Components:
 1.  **`server.js` (The Brain):**
     * Loads all game modules from the `challenges/` directory.
